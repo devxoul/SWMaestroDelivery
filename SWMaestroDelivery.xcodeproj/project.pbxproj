@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0362AC701457B33F0017145F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0362AC6F1457B33F0017145F /* UIKit.framework */; };
+		0362AC721457B33F0017145F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0362AC711457B33F0017145F /* Foundation.framework */; };
+		0362AC741457B33F0017145F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0362AC731457B33F0017145F /* CoreGraphics.framework */; };
+		0362AC7A1457B33F0017145F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0362AC781457B33F0017145F /* InfoPlist.strings */; };
+		0362AC7C1457B33F0017145F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0362AC7B1457B33F0017145F /* main.m */; };
+		0362AC801457B33F0017145F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0362AC7F1457B33F0017145F /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0362AC6B1457B33F0017145F /* SWMaestroDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWMaestroDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0362AC6F1457B33F0017145F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0362AC711457B33F0017145F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0362AC731457B33F0017145F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0362AC771457B33F0017145F /* SWMaestroDelivery-Info.plist */ = {isa = PBXFileReference; path = "SWMaestroDelivery-Info.plist"; sourceTree = "<group>"; };
+		0362AC791457B33F0017145F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0362AC7B1457B33F0017145F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0362AC7D1457B33F0017145F /* SWMaestroDelivery-Prefix.pch */ = {isa = PBXFileReference; path = "SWMaestroDelivery-Prefix.pch"; sourceTree = "<group>"; };
+		0362AC7E1457B33F0017145F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0362AC7F1457B33F0017145F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0362AC681457B33F0017145F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0362AC701457B33F0017145F /* UIKit.framework in Frameworks */,
+				0362AC721457B33F0017145F /* Foundation.framework in Frameworks */,
+				0362AC741457B33F0017145F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0362AC601457B33F0017145F = {
+			isa = PBXGroup;
+			children = (
+				0362AC751457B33F0017145F /* SWMaestroDelivery */,
+				0362AC6E1457B33F0017145F /* Frameworks */,
+				0362AC6C1457B33F0017145F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0362AC6C1457B33F0017145F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0362AC6B1457B33F0017145F /* SWMaestroDelivery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0362AC6E1457B33F0017145F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0362AC6F1457B33F0017145F /* UIKit.framework */,
+				0362AC711457B33F0017145F /* Foundation.framework */,
+				0362AC731457B33F0017145F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0362AC751457B33F0017145F /* SWMaestroDelivery */ = {
+			isa = PBXGroup;
+			children = (
+				0362AC7E1457B33F0017145F /* AppDelegate.h */,
+				0362AC7F1457B33F0017145F /* AppDelegate.m */,
+				0362AC761457B33F0017145F /* Supporting Files */,
+			);
+			path = SWMaestroDelivery;
+			sourceTree = "<group>";
+		};
+		0362AC761457B33F0017145F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0362AC771457B33F0017145F /* SWMaestroDelivery-Info.plist */,
+				0362AC781457B33F0017145F /* InfoPlist.strings */,
+				0362AC7B1457B33F0017145F /* main.m */,
+				0362AC7D1457B33F0017145F /* SWMaestroDelivery-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0362AC6A1457B33F0017145F /* SWMaestroDelivery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0362AC831457B33F0017145F /* Build configuration list for PBXNativeTarget "SWMaestroDelivery" */;
+			buildPhases = (
+				0362AC671457B33F0017145F /* Sources */,
+				0362AC681457B33F0017145F /* Frameworks */,
+				0362AC691457B33F0017145F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWMaestroDelivery;
+			productName = SWMaestroDelivery;
+			productReference = 0362AC6B1457B33F0017145F /* SWMaestroDelivery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0362AC621457B33F0017145F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Joyfl;
+			};
+			buildConfigurationList = 0362AC651457B33F0017145F /* Build configuration list for PBXProject "SWMaestroDelivery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0362AC601457B33F0017145F;
+			productRefGroup = 0362AC6C1457B33F0017145F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0362AC6A1457B33F0017145F /* SWMaestroDelivery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0362AC691457B33F0017145F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0362AC7A1457B33F0017145F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0362AC671457B33F0017145F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0362AC7C1457B33F0017145F /* main.m in Sources */,
+				0362AC801457B33F0017145F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0362AC781457B33F0017145F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0362AC791457B33F0017145F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0362AC811457B33F0017145F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0362AC821457B33F0017145F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0362AC841457B33F0017145F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWMaestroDelivery/SWMaestroDelivery-Prefix.pch";
+				INFOPLIST_FILE = "SWMaestroDelivery/SWMaestroDelivery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0362AC851457B33F0017145F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWMaestroDelivery/SWMaestroDelivery-Prefix.pch";
+				INFOPLIST_FILE = "SWMaestroDelivery/SWMaestroDelivery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0362AC651457B33F0017145F /* Build configuration list for PBXProject "SWMaestroDelivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0362AC811457B33F0017145F /* Debug */,
+				0362AC821457B33F0017145F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0362AC831457B33F0017145F /* Build configuration list for PBXNativeTarget "SWMaestroDelivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0362AC841457B33F0017145F /* Debug */,
+				0362AC851457B33F0017145F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0362AC621457B33F0017145F /* Project object */;
+}
