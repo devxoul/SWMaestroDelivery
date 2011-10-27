@@ -78,6 +78,7 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 	
+	dates = nil;
 	deliveries = nil;
 	loadingAlert = nil;
 }
@@ -106,6 +107,14 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (void)dealloc
+{
+	[super dealloc];
+	[dates dealloc];
+	[deliveries dealloc];
+	[loadingAlert dealloc];
 }
 
 #pragma mark - Table view data source
@@ -150,6 +159,11 @@
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
 {
 	return dates;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 /*
