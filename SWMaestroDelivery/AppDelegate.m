@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DeliveryListViewController.h"
 
 @implementation AppDelegate
 
@@ -23,6 +24,11 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+	
+	DeliveryListViewController *deliveryListViewController = [[DeliveryListViewController alloc] init];
+	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:deliveryListViewController];
+	[self.window addSubview:navigationController.view];
+	
     [self.window makeKeyAndVisible];
     return YES;
 }

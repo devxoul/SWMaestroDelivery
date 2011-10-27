@@ -13,6 +13,7 @@
 		0362AC7A1457B33F0017145F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0362AC781457B33F0017145F /* InfoPlist.strings */; };
 		0362AC7C1457B33F0017145F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0362AC7B1457B33F0017145F /* main.m */; };
 		0362AC801457B33F0017145F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0362AC7F1457B33F0017145F /* AppDelegate.m */; };
+		0362AC921457B9A50017145F /* DeliveryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0362AC911457B9A50017145F /* DeliveryListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		0362AC6F1457B33F0017145F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0362AC711457B33F0017145F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0362AC731457B33F0017145F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0362AC771457B33F0017145F /* SWMaestroDelivery-Info.plist */ = {isa = PBXFileReference; path = "SWMaestroDelivery-Info.plist"; sourceTree = "<group>"; };
+		0362AC771457B33F0017145F /* SWMaestroDelivery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWMaestroDelivery-Info.plist"; sourceTree = "<group>"; };
 		0362AC791457B33F0017145F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0362AC7B1457B33F0017145F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0362AC7D1457B33F0017145F /* SWMaestroDelivery-Prefix.pch */ = {isa = PBXFileReference; path = "SWMaestroDelivery-Prefix.pch"; sourceTree = "<group>"; };
-		0362AC7E1457B33F0017145F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0362AC7D1457B33F0017145F /* SWMaestroDelivery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SWMaestroDelivery-Prefix.pch"; sourceTree = "<group>"; };
+		0362AC7E1457B33F0017145F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0362AC7F1457B33F0017145F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0362AC901457B9A50017145F /* DeliveryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryListViewController.h; sourceTree = "<group>"; };
+		0362AC911457B9A50017145F /* DeliveryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			children = (
 				0362AC7E1457B33F0017145F /* AppDelegate.h */,
 				0362AC7F1457B33F0017145F /* AppDelegate.m */,
+				0362AC901457B9A50017145F /* DeliveryListViewController.h */,
+				0362AC911457B9A50017145F /* DeliveryListViewController.m */,
 				0362AC761457B33F0017145F /* Supporting Files */,
 			);
 			path = SWMaestroDelivery;
@@ -154,6 +159,7 @@
 			files = (
 				0362AC7C1457B33F0017145F /* main.m in Sources */,
 				0362AC801457B33F0017145F /* AppDelegate.m in Sources */,
+				0362AC921457B9A50017145F /* DeliveryListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +261,7 @@
 				0362AC851457B33F0017145F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
